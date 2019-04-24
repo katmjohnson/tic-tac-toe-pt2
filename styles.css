@@ -1,0 +1,50 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#board {
+    padding: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+.row div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+}
+
+.field-hover:hover {
+	background-color: yellow;
+}
+
+h1 {
+	font-size: 50px;
+	color: lightblue;
+	min-height: 50px;
+	line-height: 50px;
+}
+
+.row{
+    margin: 0 auto;
+    width: 302px;
+    height: 100px;
+    clear: both;
+}
+.top{
+    border-top: 3px solid lightblue;
+    border-bottom: 3px solid lightblue;
+}
+.bottom{
+    border-top: 3px solid lightblue;
+    border-bottom: 3px solid lightblue;
+}
+.left{
+    border-right: 3px solid lightblue;
+    border-left: 3px solid lightblue;
+}
+.right{
+    border-right: 3px solid lightblue;
+    border-left: 3px solid lightblue;
+}
